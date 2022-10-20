@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+:root{
+  --color-primary:#C2C1C2;
+  --color-secondary:#200116;
+  --color-extra:#6B6570;
+}
+
+html, body {
+  font-family:'Open Sans', sans-serif;
+  line-height: 1.4;
+  color:black;
+  background-color: white;
+}
+
+p{
+  margin: 3px 0;
+  line-height: 1.7;
+}
+
+a {
+  color:#000;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+ }
+
+ul{
+  list-style: none;
+}
+
+
+
+.banner {
+  background-color: #200116;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  max-height: 120px;
+}
+
+.banner h1 {
+  font-family: 'Koulen';
+  color: white;
+  font-size: 75px;
+  padding: 10px 0;
+  font-weight:800;
+}
+
+.bloque {
+  overflow: hidden;
+  background: #6B6570;
+  padding: 1rem;
+  max-width: 100%;
+  margin-top: 10px;
+
+}
+.bloque img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 0 1rem 0 0;
+}
+.bloque h2 {
+  font-weight: 300;
+  font-family: 'Koulen';
+  font-size: 40px;
+  margin: 0 0 0.5rem 0;
+}
+
+
+.container {
+  max-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10%;
+  background-color: #C2C1C2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.items-nav li{
+  display: inline-flex;
+  padding: 10px 20px;
+  font-weight: 200;
+}
+.items-nav li:hover {
+  text-shadow: 2px 2px 5px #200116;
+}
+
+.container-prod {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.card {
+  width: 390px;
+  margin: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  float: left;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background:#C2C1C2;
+  border-radius: 15px;
+}
+
+.card img {
+  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+}
